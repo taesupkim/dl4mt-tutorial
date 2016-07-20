@@ -20,8 +20,7 @@ done
 
 
 # code directory for cloned repositories
-HOME = /u/kimtaesu/workspace
-CODE_DIR=${HOME}/dl4mt-tutorial
+CODE_DIR=/u/kimtaesu/workspace/dl4mt-tutorial
 
 # code repository 
 CODE_CENTRAL=https://github.com/kyunghyuncho/dl4mt-tutorial
@@ -41,7 +40,7 @@ python ${CODE_DIR}/data/download_files.py \
 
 if [ "$BPE" = true ] ; then
 
-    BPE_DIR=${HOME}/codes/subword-nmt
+    BPE_DIR=/u/kimtaesu/workspace/subword-nmt
     BPE_CENTRAL=https://github.com/rsennrich/subword-nmt
 
     # clone subword-nmt repository
