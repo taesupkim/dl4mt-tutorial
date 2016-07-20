@@ -32,14 +32,6 @@ DATA_DIR=/data/lisatmp4/taesup/data
 # our trained models will be saved here
 MODELS_DIR=/data/lisatmp4/taesup/models
 
-
-# clone the repository from github into code directory
-if [ ! -d "${CODE_DIR}" ]; then
-    echo "Cloning central ..."
-    mkdir -p ${CODE_DIR}
-    git clone ${CODE_CENTRAL} ${CODE_DIR}
-fi
-
 # download the europarl v7 and validation sets and extract
 python ${CODE_DIR}/data/download_files.py \
     -s='fr' -t='en' \
