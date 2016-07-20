@@ -20,16 +20,17 @@ done
 
 
 # code directory for cloned repositories
-CODE_DIR=${HOME}/git/dl4mt-tutorial
+HOME = /u/kimtaesu/workspace
+CODE_DIR=${HOME}/dl4mt-tutorial
 
 # code repository 
 CODE_CENTRAL=https://github.com/kyunghyuncho/dl4mt-tutorial
 
 # our input files will reside here
-DATA_DIR=${CODE_DIR}/data
+DATA_DIR=/data/lisatmp4/taesup/data
 
 # our trained models will be saved here
-MODELS_DIR=${HOME}/models
+MODELS_DIR=/data/lisatmp4/taesup/models
 
 
 # clone the repository from github into code directory
